@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公式サイトのタイトル</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>公式サイトのタイトル</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#about">会社概要</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>ようこそ</h2>
+            <p>ここにサイトの説明や紹介文が入ります。</p>
+        </section>
+
+        <section id="services">
+            <h2>サービス</h2>
+            <p>提供するサービスの詳細を記載します。</p>
+        </section>
+
+        <section id="about">
+            <h2>会社概要</h2>
+            <p>会社の歴史や理念について説明します。</p>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">お名前:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">メールアドレス:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 公式サイトの名前. All rights reserved.</p>
+    </footer>
+</body>
+</html>
