@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お知らせ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>お知らせ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="about.html">私たちについて</a></li>
+                <li><a href="services.html">サービス</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="news">
+        <h2>最新のお知らせ</h2>
+
+        <article>
+            <h3>サイトの一部変更を行いました。1</h3>
+            <time datetime="2024-10-10">2024年8月9日</time>
+            <p>TanakaCommunityServerページを、改修しました。
+そして、全ページのリンクを、全角文字から半角文字に変更しました。
+Discord等に貼り付けしたリンクについては、新たなリンクに編集してあります。
+　　　　　　　　　　　　　　　　　　　　　　　　2024年8月9日　管理者 Tanaka　。</p>
+        </article>
+
+        <article>
+            <h3>お知らせタイトル2</h3>
+            <time datetime="2024-09-30">2024年9月30日</time>
+            <p>ここにお知らせの内容が入ります。詳細な情報や関連するリンクなどを掲載してください。</p>
+        </article>
+
+        <article>
+            <h3>お知らせタイトル3</h3>
+            <time datetime="2024-09-15">2024年9月15日</time>
+            <p>ここにお知らせの内容が入ります。詳細な情報や関連するリンクなどを掲載してください。</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 公式サイト</p>
+    </footer>
+</body>
+</html>
