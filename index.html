@@ -3,150 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanaka公式サイト</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        section {
-            margin: 20px 0;
-            padding: 15px;
-            background: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        label {
-            margin: 10px 0 5px;
-        }
-
-        input, textarea {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        button {
-            margin-top: 10px;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>公式サイト</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Tanaka公式サイト</h1>
+        <h1>公式サイトへようこそ</h1>
         <nav>
             <ul>
-                <li><a href="#tanaka">Tanakaについて</a></li>
-                <li><a href="#youtube">YouTubeについて</a></li>
-                <li><a href="#niconico">ニコニコについて</a></li>
-                <li><a href="#tiktok">TikTokについて</a></li>
+                <li><a href="#about">私たちについて</a></li>
+                <li><a href="#services">サービス</a></li>
                 <li><a href="#contact">お問い合わせ</a></li>
             </ul>
         </nav>
     </header>
+    
+    <section id="about">
+        <h2>私たちについて</h2>
+        <p>私たちは最高のサービスを提供することを目指しています。</p>
+    </section>
 
-    <main>
-        <section id="tanaka">
-            <h2>Tanakaについて</h2>
-            <p>私Tanakaは、2022年10月19日より、YouTubeや、ニコニコ動画（別名義）、Tiktok（現在は廃止）、Discordにて活動しております。
-主に、PCの簡単な操作、音響機器の使用等を、特技と思っています。　
-自分が持ち主のDiscordサーバーも２つ経営（2024.08.07時点)しております。
-PCのプログラミングとかそういうことは苦手です。</p>
-        </section>
+    <section id="services">
+        <h2>サービス</h2>
+        <ul>
+            <li>サービス1</li>
+            <li>サービス2</li>
+            <li>サービス3</li>
+        </ul>
+    </section>
 
-        <section id="youtube">
-            <h2>YouTubeについて</h2>
-            <p>Youtubeは、主に使用しているアカウントが２つあり、どちらもたまにゲームの配信をして、ネタ動画を投稿しています。
-ほとんど気まぐれですので、何年も投稿しない時や毎日投稿する時期など、様々な時期があります。
-温かい目で見てください。</p>
-        </section>
-
-        <section id="niconico">
-            <h2>ニコニコ動画について</h2>
-            <p>ニコニコ動画では、ボルト松島という名前で活動しております。
-あまり、まだ動画は１つしか上げていませんが、できればコメントだけでもしてくれると嬉しいです。</p>
-        </section>
-
-         <section id="tiktok">
-            <h2>TikTokについて</h2>
-            <p>廃止しました。またするかもしれませんが。</p>
-        </section>
-
-        <section id="contact">
-            <h2>お問い合わせ（現在利用不可）</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">お名前:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">メールアドレス:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">メッセージ:</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">送信</button>
-            </form>
-        </section>
-    </main>
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form action="#" method="post">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">メール:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">送信</button>
+        </form>
+    </section>
 
     <footer>
-        <p>Tanaka公式サイト By T & S </p>
+        <p>&copy; 2024 公式サイト</p>
     </footer>
 </body>
 </html>
