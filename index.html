@@ -35,6 +35,22 @@ Discord公式サイト　未構成</p>
         </ul>
     </section>
 
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form action="send_email.php" method="post">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">メール:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
     <footer>
         <p>&copy; 2024 公式サイト</p>
     </footer>
